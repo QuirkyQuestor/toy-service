@@ -1,0 +1,6 @@
+
+build:
+	go build -o ./bin/toy ./cmd/toy/...
+
+run:
+	go run ./cmd/toy/...

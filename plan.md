@@ -1,0 +1,13 @@
+- [x] ~/Projects/toy-service, go mod init,
+- [x]  Postgres in Docker (docker run postgres:18)
+- [ ] One table, one migration
+- [ ] POST /items
+- [x] GET /items/{id}
+- [ ] GET /items
+- [ ] DELETE /items/{id}
+- [x] /healthz (the process is up)
+- [x] /readyz (it pings the DB)
+- [ ] Config from env vars: DATABASE_URL, PORT
+- [x] Graceful shutdown: signal.NotifyContext plus server.Shutdown
+- [ ] A few tests
+- [ ] Optional: request ID and access-log middleware, then API key → tenant with a token bucket
